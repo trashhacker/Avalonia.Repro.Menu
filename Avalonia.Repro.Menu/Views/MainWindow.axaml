@@ -24,7 +24,10 @@
       <MenuItem Header="Collection" ItemsSource="{Binding Commands}" ItemContainerTheme="{DynamicResource menuitemcommandtheme}" />
     </Menu>
 
-    <TextBlock Grid.Row="1" Text="{Binding Command}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Border HorizontalAlignment="Center" VerticalAlignment="Center">
+
+      <TextBlock Grid.Row="1" Text="{Binding Command}" />
+    </Border>
   </Grid>
   
 
