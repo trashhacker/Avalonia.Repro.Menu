@@ -1,0 +1,9 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <!-- Add Resources Here -->
+
+  <ControlTheme x:Key="menuitemcommandtheme" TargetType="MenuItem">
+    <Setter Property="Header" Value="{Binding Name}" />
+    <Setter Property="Command" Value="{Binding}" />
+  </ControlTheme>
+</ResourceDictionary>
